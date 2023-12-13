@@ -3,5 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/java2779/public_html/WildanFKH
     - /bin/cp -r public index.html $DEPLOYPATH
-    - /bin/cp -r components $DEPLOYPATH
-    - /bin/cp -r assets $DEPLOYPATH
+    - /bin/cp -r src $DEPLOYPATH
